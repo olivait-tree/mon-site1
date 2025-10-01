@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+    <style>
+        /* Style global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Barre de navigation */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+        }
+
+        #accueil {
+            background-color: #f2f2f2;
+        }
+
+        #apropos {
+            background-color: #e6e6e6;
+        }
+
+        #contact {
+            background-color: #d9d9d9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur mon site</h1>
+        <p>Voici une page simple avec une barre de navigation et plusieurs sections. Utilise les liens en haut pour naviguer.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos">
+        <h1>À propos</h1>
+        <p>Je suis passionné par le développement web. Ce site est un exemple de structure HTML avec un peu de CSS.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Tu peux me contacter via email à : exemple@email.com</p>
+    </section>
+
+</body>
+</html>
